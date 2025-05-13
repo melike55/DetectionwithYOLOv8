@@ -1,0 +1,14 @@
+path: '/content/gdrive/My Drive/ComputerVisionEngineer/ObjectDetectionYolov8/data'
+train: '/content/gdrive/My Drive/ComputerVisionEngineer/ObjectDetectionYolov8/data/images/train'
+val: '/content/gdrive/My Drive/ComputerVisionEngineer/ObjectDetectionYolov8/data/images/val'
+
+
+nc: 1
+names: ['alpaca']
+
+roboflow:
+  workspace: alpaca-wwe53
+  project: alpacadetection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alpaca-wwe53/alpacadetection/dataset/1
